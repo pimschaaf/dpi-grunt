@@ -25,9 +25,19 @@ module.exports = function(grunt) {
         },
         watch: { //watch task
             js: {
-                files: ['../assets/js/main.concat.js'],
+                files: ['<%= jshint.files %>'],
                 tasks: ['jshint', 'concat']
             },
+            livereload: {
+	            // We use this target to watch files that will trigger the livereload
+                files: [
+                    // Anytime css is edited or compiled by sass, trigger the livereload on those files
+                    '../assets/css/*.css',
+                    // Or a js file
+                    '../assets/js/*.js'
+                ],
+                options: { livereload: true }
+            }
         }
     });
 
