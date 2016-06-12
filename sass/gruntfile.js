@@ -4,12 +4,12 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         sass: { //task
             options: { // Target options
-                outputStyle: 'expanded',
+                outputStyle: 'compressed',
                 sourceMap: true
             },
             dist: { // Target
                 files: { // Dictionary of files
-                    'css/main.css': 'sass/main.scss' //target: source
+                    '../assets/css/main.css': 'sass/main.scss' //target: source
                 }
             }
         },
