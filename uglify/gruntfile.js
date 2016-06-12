@@ -33,6 +33,14 @@ module.exports = function(grunt) {
                 files: ['<%= jshint.files %>'],
                 tasks: ['jshint', 'uglify']
             },
+            livereload: {
+	            // We use this target to watch files that will trigger the livereload
+                files: [
+                    // Or a js file
+                    '../assets/js/*.js'
+                ],
+                options: { livereload: true }
+            }
         }
     });
 
