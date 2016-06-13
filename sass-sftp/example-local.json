@@ -1,5 +1,10 @@
 {
-  host: 'server.com',
-  port: 22,
-  authKey: 'key1'
+  "sftpAuth": {
+    "host": "192.168.1.1",
+    "port": 12345,
+    "authKey": {
+      "username": "",
+      "password": ""
+    }
+  }
 }
