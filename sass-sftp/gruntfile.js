@@ -36,7 +36,7 @@ module.exports = function(grunt) {
                 tasks: ['sass']
             },
             cssdeploy: {
-                files: ['/var/www/httpdocs/css/main.min.css'],
+                files: ['../assets/css/main.min.css'],
                 tasks: ['sftp-deploy:css'],
                 options: { livereload: true }
             }
