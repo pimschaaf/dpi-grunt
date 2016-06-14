@@ -1,0 +1,33 @@
+{
+  "name": "dpi-grunt_uglify-sftp",
+  "version": "1.0.0",
+  "description": "DPI Grunt uglify SFTP Boilerplate",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pimschaaf/dpi-grunt.git"
+  },
+  "keywords": [
+    "dpi",
+    "grunt",
+    "uglify",
+    "sftp",
+    "boilerplate"
+  ],
+  "author": "Pim Schaaf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pimschaaf/dpi-grunt/issues"
+  },
+  "homepage": "https://github.com/pimschaaf/dpi-grunt#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sftp-deploy": "^0.2.4"
+  }
+}

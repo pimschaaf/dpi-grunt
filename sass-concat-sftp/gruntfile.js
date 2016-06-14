@@ -17,7 +17,7 @@ module.exports = function(grunt) {
                 serverSep: '/',
                 concurrency: 4,
                 progress: true
-            }
+            },
             'js': {
                 auth: cfg.local.sftpAuth,
                 cache: 'sftpCache-js.json',
@@ -74,7 +74,7 @@ module.exports = function(grunt) {
                 files: ['../assets/css/main.min.css'],
                 tasks: ['sftp-deploy:css'],
                 options: { livereload: true }
-            }
+            },
             jsdeploy: {
                 files: ['../assets/js/main.concat.js'],
                 tasks: ['sftp-deploy:js'],
