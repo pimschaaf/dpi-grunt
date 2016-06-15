@@ -14,7 +14,7 @@ Boilerplates for Grunt preprocessing of SASS and JavaScript in development envir
 
 ## CMS Boilerplates
 * Magento 1.9
-    * sass-concat-sftp
+    * [sass-concat-sftp](https://github.com/pimschaaf/dpi-grunt/tree/master/magento/sass-concat-sftp) SASS compilation to 1 file and JavaScript concatenation to 1 file, with JavaScript validation and SFTP deployment for Magento.
 * WordPress
     * sass-uglify
 
