@@ -1,4 +1,4 @@
-# dpi-grunt/sass-uglify
+# dpi-grunt/wordpress/sass-uglify
 SASS compilation to 1 file and JavaScript minification to 1 file, with JavaScript validation.
 
 # Usage
