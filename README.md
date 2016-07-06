@@ -16,11 +16,12 @@ Boilerplates for Grunt preprocessing of SASS and JavaScript in development envir
 * Magento 1.9
     * [sass-concat-sftp](https://github.com/pimschaaf/dpi-grunt/tree/master/magento/sass-concat-sftp) SASS compilation to 1 file and JavaScript concatenation to 1 file, with JavaScript validation and SFTP deployment for Magento.
 * WordPress
-    * sass-uglify
+    * [sass-uglify](https://github.com/pimschaaf/dpi-grunt/tree/master/wordpress/sass-uglify) SASS compilation to 1 file and JavaScript minification to 1 file, with JavaScript validation for WordPress.
 
 ## Usage
 Most Boilerplates can be installed with `npm install` and run with `grunt watch` through your OS CLI. Check the Boilerplate readme for usage details.
 
-NodeJS (npm) with Grunt CLI is required.
-
 Always check the paths in the `gruntfile.js` to make sure they have the right references.
+
+## Dependencies
+NodeJS (npm) with Grunt CLI is required.
