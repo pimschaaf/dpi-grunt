@@ -21,6 +21,8 @@ Boilerplates for Grunt preprocessing of SASS and JavaScript in development envir
 ## Usage
 Most Boilerplates can be installed with `npm install` and run with `grunt watch` through your OS CLI. Check the Boilerplate readme for usage details.
 
+A Dutch presentation is available on [Google Presentations](https://docs.google.com/presentation/d/1q6zZ6TxbxiJOD_T8sQd5M7ohtYqFg-MaAA6oQIRFwtI/pub?start=false&loop=true).
+
 Always check the paths in the `gruntfile.js` to make sure they have the right references.
 
 ## Dependencies
