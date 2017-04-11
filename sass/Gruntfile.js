@@ -15,7 +15,7 @@ module.exports = function(grunt) {
         },
         watch: { //watch task
             css: {
-                files: ['../css/**/*.scss'], //watch pattern
+                files: ['../sass/**/*.scss'], //watch pattern
                 tasks: ['sass'] //task
             },
             livereload: {
