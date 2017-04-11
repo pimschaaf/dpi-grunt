@@ -9,7 +9,7 @@ module.exports = function(grunt) {
             },
             dist: { // Target
                 files: { // Dictionary of files
-                    '../assets/css/main.min.css': 'sass/main.scss' //target: source
+                    '../assets/css/main.min.css': 'assets/sass/main.scss' //target: source
                 }
             }
         },
@@ -19,17 +19,17 @@ module.exports = function(grunt) {
               sourceMap: true
             },
             files: {
-              '../assets/js/main.min.js': 
+              '../assets/js/main.min.js':
                 [
-                  'js/functions.js',
-                  'js/ready.js'
+                  'assets/js/functions.js',
+                  'assets/js/ready.js'
                 ]
             }
           }
         },
         jshint: {
             // define the files to lint
-            files: ['js/**/*.js'],
+            files: ['assets/js/**/*.js'],
             options: {
 //                ignores: [''],
                 globals: {
@@ -40,6 +40,10 @@ module.exports = function(grunt) {
             }
         },
         watch: { //watch task
+            css: {
+                files: ['assets/sass/**/*.scss'], //watch pattern
+                tasks: ['sass'] //task
+            },
             js: {
                 files: ['<%= jshint.files %>'],
                 tasks: ['jshint', 'uglify']

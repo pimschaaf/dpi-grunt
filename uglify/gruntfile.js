@@ -8,17 +8,17 @@ module.exports = function(grunt) {
               sourceMap: true
             },
             files: {
-              '../assets/js/main.min.js': 
+              '../assets/js/main.min.js':
                 [
-                  'js/functions.js',
-                  'js/ready.js'
+                  'assets/js/functions.js',
+                  'assets/js/ready.js'
                 ]
             }
           }
         },
         jshint: {
             // define the files to lint
-            files: ['js/**/*.js'],
+            files: ['assets/js/**/*.js'],
             options: {
 //                ignores: [''],
                 globals: {
