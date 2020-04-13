@@ -1,10 +1,12 @@
+const sass = require('node-sass');
+
 module.exports = function(grunt) {
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         sass: { //task
             options: { // Target options
-		implementation: 'sass',
+		implementation: sass,
                 outputStyle: 'compressed',
                 sourceMap: true
             },
