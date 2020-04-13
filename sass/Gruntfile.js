@@ -4,7 +4,7 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         sass: { //task
             options: { // Target options
-		implementation: sass,
+		implementation: 'sass',
                 outputStyle: 'compressed',
                 sourceMap: true
             },
